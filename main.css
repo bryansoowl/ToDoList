@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #ffffff;
+    background-color: #1d1d1d;
+    font-family: 'Courier New', Courier, monospace;
+}  
+
+/* * {
+    outline: 1px solid red;
+}  */
+
+.container {
+    width: 90%;
+    max-width: 75rem;
+    margin: auto;
+    align-items: center;
+    height: auto;
+}
+
+.heading {
+    padding-left: 30px;
+    border-bottom: 1px solid white;
+}
+
+.form {
+    width: 53rem;
+    height: 10rem;
+    border-radius: 10px;
+    border: 1px solid white;
+    background-color: aliceblue;
+}
+
+.mainInput {
+    width: 52rem;
+}
+
+.form textarea {
+    padding-left: 0.75rem;
+    padding-top: 0rem;
+    border: none;
+    outline: none;
+    resize: none;
+    background-color: transparent;
+    height: 1rem;
+}
